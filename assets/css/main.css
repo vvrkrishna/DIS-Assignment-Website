@@ -1,6 +1,11 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Pacifico");
 
+/*
+	Introspect by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
 
 /* Reset */
 
@@ -50,6 +55,60 @@
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
+
+/*search model -------------------------------------------------------------------------------------------------------------*/
+	@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+	body{
+	  background: #f2f2f2;
+	  font-family: 'Open Sans', sans-serif;
+	}
+
+	.search {
+	  width: 100%;
+	  position: relative;
+	  display: flex;
+	}
+
+	.searchTerm {
+	  width: 100%;
+	  border: 18px solid #00B4CC;
+	  border-right: none;
+	  padding: 55px;
+	  height: 88px;
+	  border-radius: 5px 0 0 5px;
+	  outline: none;
+	  color: #9DBFAF;
+	}
+
+	.searchTerm:focus{
+	  color: #00B4CC;
+	}
+
+	.searchButton {
+	  width: 55px;
+	  height: 47px;
+	  border: 1px solid #00B4CC;
+	  background: #00B4CC;
+	  text-align: center;
+	  color: #fff;
+	  border-radius: 0 8px 5px 0;
+	  cursor: pointer;
+	  font-size: 20px;
+	}
+
+	/*Resize the wrap to see the search bar change!*/
+	.wrap{
+	  width: 30%;
+	  position: absolute;
+	  top: 56.5%;
+	  left: 20%;
+	  transform: translate(50%, 50%);
+	} 	
+/* -----------------------------------------------------------------------------*/
+
+
+
 
 /* Containers */
 
@@ -1112,6 +1171,8 @@
 		}
 
 	}
+
+
 
 	@media screen and (max-width: 736px) {
 
@@ -3360,7 +3421,7 @@
 		color: #f2a3a5;
 		padding: 13em 0 11em 0;
 		background-color: #0c0c0c;
-		background-image: url("../../images/fruits-vegetables_medium.jpg");
+		background-image: url("../../images/banner.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: 15% left;
